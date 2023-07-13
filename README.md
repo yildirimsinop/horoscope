@@ -1,27 +1,29 @@
-# Monthly Expense Tracking Application
+# Getting Started with Create React App
 
-This is a web-based Expense Tracker application developed with React, that provides an easy and efficient way to track your monthly income and expenses. It includes features for inputting monthly income, adding and removing expenses, and providing a calculated remaining amount. All data is stored in the browser's local storage to persist even after refreshing or reopening the page.
+This project is a web-based Expense Tracker application developed with Create React App..
 
 ## Application Overview
 
 App Screenshot
 
-## Key Features
+## Main Features
 
-Add Monthly Income
-Input your monthly income in the provided field and click the "Add" button. This will update your total income and the remaining balance for the month.
+npm start
+Run the app in the development mode by entering npm start in the terminal from the project directory. Open http://localhost:3000 to view the app in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 
-## Add Expenses
+## npm test
 
-To add an expense, complete the "Expense Form" with the relevant details: the expense description, date, and amount. Upon clicking the "Save" button, the expense will be added to your expenses table and the remaining balance will be updated accordingly.
+Launch the test runner in the interactive watch mode by running npm test. For more information about running tests, refer to the Running Tests section of the Create React App documentation.
 
-## Remove Expenses
+## npm run build
 
-Each entry in the expenses table includes a trash can icon. Clicking this icon will remove the corresponding expense from your records and update your remaining balance.
+Build the app for production to the build folder by running npm run build. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include hashes for easier versioning.
 
-## Clear All Data
+## npm run eject
 
-Clicking the "Clear Information" button will initiate the removal of all recorded data. After confirming your intent in the popup dialog, all income and expense data will be cleared from the application and local storage.
+Note: this is a one-way operation. Once you eject, you can’t go back!
+
+This command will remove the single build dependency from your project and copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. Commands except eject will still function, but they will point to the copied scripts so you can tweak them. At this point, you’re on your own.
 
 ## Technologies Used
 
@@ -35,14 +37,28 @@ Clone the repository to your local machine and open the HTML file in your prefer
 ## Gif
 
 . horoscope
-<img src = "./horoscope.gif" Alt = "sass">
+<img src = "./horoscope.gif" Alt = "horoscope">
 
-## Project Structure
+## Additional Information
 
-The application is a single-page application with an HTML file that includes the form and tables for displaying income, expenses, and the remaining amount. Styling is achieved through Bootstrap with some custom CSS. All application functionality is located within script tags at the bottom of the HTML file. This includes form submissions, table updates, remaining income calculations, and interactions with local storage.
+To learn more about Create React App, refer to the Create React App documentation.
 
-The Google Translate script is included to automatically translate the website into the user's preferred language.
+For learning React, refer to the React documentation.
+
+To learn more about the specific topics related to Create React App, you can refer to these sections:
+
+#### Code Splitting
+
+#### Analyzing the Bundle Size
+
+#### Making a Progressive Web App
+
+#### Advanced Configuration
+
+#### Deployment
+
+#### npm run build fails to minify
 
 ## Contact
 
-For any questions, concerns, or additional information, please contact me at umity@uia.no.
+If you have any questions or need further assistance, feel free to reach out to me at umity@uia.no.
