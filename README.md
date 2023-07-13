@@ -27,11 +27,16 @@ This command will remove the single build dependency from your project and copy 
 
 ## Technologies Used
 
-HTML
-CSS (Bootstrap 5.3.0)
-JavaScript
-React
-Setup
+#### HTML
+
+#### CSS (Bootstrap 5.3.0)
+
+#### JavaScript
+
+#### React
+
+#### Setup
+
 Clone the repository to your local machine and open the HTML file in your preferred browser to start using the expense tracker.
 
 ## Gif
